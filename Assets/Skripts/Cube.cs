@@ -5,6 +5,7 @@ public class Cube : MonoBehaviour
 {
     [SerializeField] private float _explosionForce;
     [SerializeField] private float _explosionRadius;
+    [SerializeField] private Cube _cubePrefab;
 
     private int _minCloneValue = 2;
     private int _maxCloneValue = 6;
@@ -24,15 +25,12 @@ public class Cube : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private GameObject CreateClone()
+    private Cube CreateClone()
     {
-        var clone = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        var clone = Instantiate(_cubePrefab);
 
-        clone.transform.position = transform.position;
         clone.transform.localScale = transform.localScale / 2;
-
         clone.GetComponent<Renderer>().material.color = Random.ColorHSV();
-        clone.AddComponent<Cube>();
 
         return clone;
     }

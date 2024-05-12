@@ -585,8 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &595080940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -796,8 +796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &747746961
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1050,8 +1050,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &794622405
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1487,8 +1487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &1079986227
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1635,8 +1635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &1151201925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1783,8 +1783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &1328901769
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1946,8 +1946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &1508226144
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2094,8 +2094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &1534060331
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2348,8 +2348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c64c0f10b8d994e9464721db3d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionForce: 300
-  _explosionRadius: 400
+  _explosionForce: 400
+  _explosionRadius: 300
 --- !u!54 &1868515220
 Rigidbody:
   m_ObjectHideFlags: 0
