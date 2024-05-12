@@ -15,28 +15,26 @@ public class Cube : MonoBehaviour
 
     private void Crumble()
     {
-        int randomCloneValue = Random.Range(_minCloneValue, _maxCloneValue);
-
         if (Random.value <= transform.localScale.x)
-        {
-            for (int i = 0; i < randomCloneValue; i++)
-                CreateClone();
-        }
+            Clone();
         else
-        {
             Explode();
-        }
 
         Destroy(gameObject);
     }
 
-    private void CreateClone()
+    private void Clone()
     {
-        var clone = Instantiate(_cube);
+        int randomCloneValue = Random.Range(_minCloneValue, _maxCloneValue);
 
-        clone.transform.localScale = transform.localScale / 2;
-        clone.GetComponent<Renderer>().material.color = Random.ColorHSV();
-        clone.AddExplosionForce(_explosionForce, transform.position, _explosionRadius);
+        for (int i = 0; i < randomCloneValue; i++)
+        {
+            var clone = Instantiate(_cube);
+
+            clone.transform.localScale = transform.localScale / 2;
+            clone.GetComponent<Renderer>().material.color = Random.ColorHSV();
+            clone.AddExplosionForce(_explosionForce, transform.position, _explosionRadius);
+        }
     }
 
     private void Explode()
