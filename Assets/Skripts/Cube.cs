@@ -29,7 +29,7 @@ public class Cube : MonoBehaviour
 
         for (int i = 0; i < randomCloneValue; i++)
         {
-            var clone = Instantiate(_cube);
+            Rigidbody clone = Instantiate(_cube);
 
             clone.transform.localScale = transform.localScale / 2;
             clone.GetComponent<Renderer>().material.color = Random.ColorHSV();
